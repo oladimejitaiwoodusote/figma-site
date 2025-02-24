@@ -1,0 +1,141 @@
+.home{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.home_page-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%;    
+    margin-top: 30px;
+    margin-bottom: 65px;
+
+}
+
+.home_page-1-left {
+  width: 50%;
+  max-width: 50%;
+}
+
+.home_page-1-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 580px;
+    height: 192px;
+    width: 80%;
+}
+
+.home_page-1-left p {
+    font-size: 32px;
+    color: #767676;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 516px;
+    height: 86px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.home_page-1-button {
+    background-color: #2D6A4F;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 24px;
+    border-radius: 20px;
+    width: 239px;
+    margin-top: 35px;
+}
+
+.home_page-1-right {
+    display: flex;
+    gap: 20px;
+    width: 653px;
+    height: 623px;
+    /*Add height dimension*/
+}
+
+.home_page-1-right-image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home_page-1-right-image-column:nth-child(1) img:nth-child(1),
+.home_page-1-right-image-column:nth-child(2) img:nth-child(2) {
+    width: 315px;
+    height: 391px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.home_page-1-right-image-column:nth-child(1) img:nth-child(2),
+.home_page-1-right-image-column:nth-child(2) img:nth-child(1) {
+    width: 315px;
+    height: 206px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.home_green-bar{
+    width: 66%;
+    height: 5px;
+    background-color: #1B4332;
+    margin: 40px auto;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.home_page-2{
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.home_page-2-Header h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.home_page-2-Header p{
+    color: #767676;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.home_page-2-Image-Scroll{
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.home_page-2-ImageRow{
+    display: flex;
+    gap: 80px;
+}
+
+.home_page-2-ImageRow img{
+    width: 311px;
+    height: 300px;
+    scroll-snap-align: center;
+    transition: all 0.3s ease;
+}
+
+.home_page-2-ImageRowDirect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+
+.home_scroll-arrow{
+    font-size: 100px;
+}
+
+.home_scroll-text {
+    color: #767676
+}
