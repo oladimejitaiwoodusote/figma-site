@@ -81,8 +81,8 @@
 }
 
 .home_green-bar{
-    width: 66%;
-    height: 5px;
+    width: 978px;
+    height: 4px;
     background-color: #1B4332;
     margin: 40px auto;
     border-radius: 5px;
@@ -105,37 +105,62 @@
     color: #767676;
     font-size: 32px;
     font-weight: 500;
+    margin-bottom: 100px;
 }
 
-.home_page-2-Image-Scroll{
+.home_page-2-ImageRow-Scroll{
     overflow-x: auto;
+    overflow-y: hidden;
     scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
+    height: 441px;
+    width: 1402px;
+    padding: 20px;
+    perspective: 1200px;
+    scrollbar-width: none;
 }
 
 .home_page-2-ImageRow{
     display: flex;
     gap: 80px;
+    height: 441px;
+    width: max-content;
+    transition: transform 0.5s ease;
 }
 
 .home_page-2-ImageRow img{
     width: 311px;
     height: 300px;
     scroll-snap-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease, filter 0.5s ease;
+    transform-origin: center;    
 }
 
 .home_page-2-ImageRowDirect {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     color: black;
+    align-items: flex-end;
+    gap: 0;
 }
+
 
 .home_scroll-arrow{
     font-size: 100px;
+    color: black;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 1;
+    padding-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+    left: 10px;
 }
 
-.home_scroll-text {
-    color: #767676
+.home_scroll-text{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px;
 }

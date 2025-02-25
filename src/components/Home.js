@@ -1,7 +1,10 @@
 import React from 'react'
 import '../styles/Home.css'
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 function Home() {
+  
   return (
     <div className='home'>
       <div className='home_page-1'>    
@@ -47,7 +50,9 @@ function Home() {
           </div>
         </div>        
         <div className='home_page-2-ImageRowDirect'>
-          <span className='home_scroll-arrow'>→</span>
+          <div className='home_scroll-arrow'>
+            <FaLongArrowAltRight/>
+          </div>
           <span className='home_scroll-text'>Scroll on pictures for more</span>
         </div>
       </div>
