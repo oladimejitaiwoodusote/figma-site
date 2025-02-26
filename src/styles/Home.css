@@ -20,12 +20,17 @@
 
 .home_page-1-left h1 {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 0px;
     margin-top: 0px;
     width: 580px;
     height: 192px;
     width: 80%;
+}
+
+.home_page-1-left span{
+    font-weight: 700;
+    font-size: 48px;
 }
 
 .home_page-1-left p {
@@ -101,6 +106,11 @@
     margin-top: 0px;
 }
 
+.home_page-2-Header span{
+    font-weight: 700;
+    font-size: 48px;
+}
+
 .home_page-2-Header p{
     color: #767676;
     font-size: 32px;
@@ -109,7 +119,7 @@
 }
 
 .home_page-2-ImageRow-Scroll{
-    overflow-x: auto;
+    /* overflow-x: auto;
     overflow-y: hidden;
     scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
@@ -117,24 +127,46 @@
     width: 1402px;
     padding: 20px;
     perspective: 1200px;
-    scrollbar-width: none;
+    scrollbar-width: none; */
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    perspective: 1000px;
 }
 
+.home_page-2-ImageRow-Scroll::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+
 .home_page-2-ImageRow{
-    display: flex;
+    /* display: flex;
     gap: 80px;
     height: 441px;
     width: max-content;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease; */
+
+    display: flex;
+    transform-style: preserve-3d;
+    padding: 40px;
+    gap: 30px;
 }
 
 .home_page-2-ImageRow img{
-    width: 311px;
+    /* width: 311px;
     height: 300px;
     scroll-snap-align: center;
     transition: all 0.5s ease, filter 0.5s ease;
-    transform-origin: center;    
+    transform-origin: center;     */
+    width: 250px;
+    height: 350px;
+    margin-right: 30px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    transform-origin: center;
 }
+
+
 
 .home_page-2-ImageRowDirect {
     display: flex;

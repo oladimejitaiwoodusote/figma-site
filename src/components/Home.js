@@ -4,13 +4,13 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 function Home() {
-  
+
   return (
     <div className='home'>
       <div className='home_page-1'>    
         <div className='home_page-1-left'>
           <h1>
-            Customize your place with the best possible plant solutions 
+            Customize your place with the <span>best</span> possible plant solutions 
           </h1>
           <p>
             Recommendations that are healthy and match your aesthetic
@@ -34,14 +34,14 @@ function Home() {
       <div className='home_page-2'>  
         <div className='home_page-2-Header'>
           <h1>
-            Top Picks
+            <span>Top</span> Picks
           </h1>
           <p>
             Loved by our customers from 35+ cities
           </p>
         </div>
-        <div className='home_page-2-ImageRow-Scroll'>
-          <div className='home_page-2-ImageRow'>
+        <div className='home_page-2-ImageRow-Scroll' >
+          <div className='home_page-2-ImageRow' >
             <img alt='img5' src="/images/img5.jpeg"/>
             <img alt='img6' src="/images/img6.jpeg"/>
             <img alt='img7' src="/images/img7.jpeg"/>
