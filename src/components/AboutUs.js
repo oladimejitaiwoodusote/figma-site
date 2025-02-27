@@ -26,7 +26,7 @@ function AboutUs() {
           </div>
         </div>
         <div className='about_us-right'>
-          <img alt='img10' src="/images/img10.jpeg"/>
+          <img alt='img10' src={`${process.env.PUBLIC_URL}/images/img10.jpeg`}/>
         </div>
         <div className='about_us-right'></div>
     </div>

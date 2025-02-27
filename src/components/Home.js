@@ -21,12 +21,12 @@ function Home() {
         </div>
         <div className='home_page-1-right'>
           <div className='home_page-1-right-image-column'>
-            <img alt='img1' src="/images/img1.jpeg"/>
-            <img alt='img2' src="/images/img2.jpeg"/>
+            <img alt='img1' src={`${process.env.PUBLIC_URL}/images/img1.jpeg`}/>
+            <img alt='img2' src={`${process.env.PUBLIC_URL}/images/img2.jpeg`}/>
           </div>
           <div className='home_page-1-right-image-column'>
-            <img alt='img3' src="/images/img3.jpeg"/>
-            <img alt='img4' src="/images/img4.jpeg"/>
+            <img alt='img3' src={`${process.env.PUBLIC_URL}/images/img3.jpeg`}/>
+            <img alt='img4' src={`${process.env.PUBLIC_URL}/images/img4.jpeg`}/>
           </div>
         </div>
       </div>
@@ -42,11 +42,11 @@ function Home() {
         </div>
         <div className='home_page-2-ImageRow-Scroll' >
           <div className='home_page-2-ImageRow' >
-            <img alt='img5' src="/images/img5.jpeg"/>
-            <img alt='img6' src="/images/img6.jpeg"/>
-            <img alt='img7' src="/images/img7.jpeg"/>
-            <img alt='img8' src="/images/img8.jpeg"/>
-            <img alt='img9' src="/images/img9.jpeg"/>
+            <img alt='img5' src={`${process.env.PUBLIC_URL}/images/img5.jpeg`}/>
+            <img alt='img6' src={`${process.env.PUBLIC_URL}/images/img6.jpeg`}/>
+            <img alt='img7' src={`${process.env.PUBLIC_URL}/images/img7.jpeg`}/>
+            <img alt='img8' src={`${process.env.PUBLIC_URL}/images/img8.jpeg`}/>
+            <img alt='img9' src={`${process.env.PUBLIC_URL}/images/img9.jpeg`}/>
           </div>
         </div>        
         <div className='home_page-2-ImageRowDirect'>
@@ -56,7 +56,7 @@ function Home() {
           <span className='home_scroll-text'>Scroll on pictures for more</span>
         </div>
       </div>
-      <div className='home_green-bar'></div>
+      <div className='home_green-bar-2'></div>
     </div>
   )
 }
